@@ -1,0 +1,26 @@
+/* Custom styles for the navigation bar
+.nav-link {
+    @apply text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium;
+  }
+   */
+
+   /* Custom styles for the navigation bar */
+.nav-link {
+  @apply text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium;
+}
+.nav-outside{
+  @apply p-3;
+}
+
+/* Additional styles */
+.nav-container {
+  @apply flex justify-between items-center bg-black h-16;
+}
+
+.nav-brand {
+  @apply text-white font-bold text-xl;
+}
+
+.nav-menu {
+  @apply hidden md:flex items-baseline space-x-4;
+}
